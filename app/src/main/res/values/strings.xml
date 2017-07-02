@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BikeSGV</string>
+    <string name="titleName">SGV Bikes</string>
+    <string name="userPrompt">What\'s your name?</string>
+    <string name="userText">Volunteer Name</string>
+    <string name="passwPrompt">Password</string>
+    <string name="passwText">Your Secret Here.</string>
+    <string name="signInButton">Sign In</string>
+    <string name="signUpButton">Ready to Ride? Then, <b>Sign Up</b></string>
+    <string name="addSite">Add a Site</string>
+    <string name="viewProfile">View Profile</string>
+    <string name="newsfeed">Newsfeed</string>
+    <string name="signOut">Sign Out</string>
+
+
+</resources>

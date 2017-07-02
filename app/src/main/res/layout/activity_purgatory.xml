@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mesch.android.bikesgv.Purgatory"
+    android:orientation="horizontal">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/addSite"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/addSite"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_green_dark"/>
+
+        <Button
+            android:id="@+id/viewProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/viewProfile"
+            android:textAlignment="center"
+            tools:ignore="ButtonStyle"/>
+        <!--
+            <ImageButton
+
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher_round"/>
+
+            <ImageButton
+
+                android:id="@+id/imageButton12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher_round"/>-->
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/newsfeed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/newsfeed"
+            android:textAlignment="center"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/signout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/signOut"
+            android:textAlignment="center"
+            tools:ignore="ButtonStyle"/>
+
+        <!--
+        <ImageButton
+
+            android:id="@+id/imageButton11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher_round"/>
+
+        <ImageButton
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_column="2"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher_round"/>-->
+    </TableRow>
+
+
+</TableLayout>
