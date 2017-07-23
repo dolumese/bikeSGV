@@ -11,6 +11,7 @@
     <string name="viewProfile">View Profile</string>
     <string name="newsfeed">Newsfeed</string>
     <string name="signOut">Sign Out</string>
+    <string name="cloud">Cloud</string>
 
 
 </resources>

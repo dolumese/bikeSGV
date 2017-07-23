@@ -16,9 +16,6 @@
 
         <Button
             android:id="@+id/addSite"
-            android:layout_width="match_parent"
-
-            android:layout_height="match_parent"
             android:layout_column="1"
             android:layout_gravity="center"
             android:layout_weight="1"
@@ -29,9 +26,6 @@
 
         <Button
             android:id="@+id/viewProfile"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-
             android:layout_column="2"
             android:layout_gravity="center"
             android:layout_weight="1"
@@ -67,8 +61,6 @@
 
         <Button
             android:id="@+id/newsfeed"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:layout_column="1"
             android:layout_gravity="center"
             android:layout_weight="1"
@@ -79,8 +71,6 @@
 
         <Button
             android:id="@+id/signout"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:layout_column="2"
             android:layout_gravity="center"
             android:layout_weight="1"
